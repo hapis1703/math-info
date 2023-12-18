@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia&display=swap");
+@media (max-width: 900px) {
+  * {
+    font-size: 2.5vw;
+  }
+}
+* {
+  font-family: "Exo 2", sans-serif;
+}
+body {
+  background-color: #016d10;
+}
+nav {
+  position: sticky;
+  background-image: linear-gradient(rgb(26, 222, 0), rgb(15, 90, 6));
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px;
+}
+h3 i {
+  margin-right: 4px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 3px;
+  font-weight: bold;
+  font-size: large;
+}
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+div {
+  background-image: linear-gradient(rgb(26, 222, 0), rgb(15, 90, 6));
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+}
+div img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.description {
+  position: relative;
+  font-size: 25px;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  font-family: "Kalnia", serif;
+}
+hr {
+  background-color: white;
+  height: 5px;
+}
+.profile-picture {
+  border-radius: 50%;
+}
+.white {
+  color: white;
+}

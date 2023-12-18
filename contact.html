@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <a href="index.html" class="bck">Go Back</a>
+    <div class="contact-container">
+      <form
+        action="https://formsubmit.co/hepiss1703@gmail.com"
+        method="post"
+        autocomplete="off"
+      >
+        <div class="form-container">
+          <div class="input-container">
+            <div class="icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="form-input">
+              <input type="text" class="input-item" name="name" id="name" required/>
+              <label for="name" class="form-label">Name</label>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="form-input">
+              <input type="text" class="input-item" name="city" id="city"/>
+              <label for="city" class="form-label">City</label>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="icon">
+              <i class="fas fa-envelope-open"></i>
+            </div>
+            <div class="form-input">
+              <input type="email" class="input-item" name="email" id="email" required/>
+              <label for="email" class="form-label">Email</label>
+            </div>
+          </div>
+          <div class="textarea-container">
+            <div class="icon">
+              <i class="fas fa-comment"></i>
+            </div>
+            <div class="form-textarea">
+              <textarea
+                name="message"
+                id="message"
+                cols="52"
+                rows="8"
+                class="textarea" required
+              ></textarea>
+              <label for="message" class="form-label"Message</label>
+            </div>
+          </div>
+        </div>
+
+        <input type="submit" value="submit" class="submit" />
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a136060a1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

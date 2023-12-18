@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia&display=swap");
+@media (max-width: 900px) {
+  * {
+    font-size: 2.5vw;
+  }
+}
+* {
+  font-family: "Exo 2", sans-serif;
+}
+/*contact.css*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: green;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(5, 148, 5);
+  border-radius: 20px;
+  border: 5px solid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.form-input {
+  position: relative;
+}
+
+.input-item {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-item:focus {
+  border-color: #007bff;
+}
+
+.form-label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  padding: 8px 0;
+  color: #999;
+  font-size: 16px;
+  transition: transform 0.3s, color 0.3s;
+  font-weight: bolder;
+}
+
+.input-item:focus + .form-label,
+.input-item:not(:placeholder-shown) + .form-label {
+  transform: translateY(-20px);
+  color: rgb(13, 92, 2);
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  border-color: #007bff;
+}
+.submit {
+  background-color: green;
+  border: 2px solid;
+  height: 40px;
+  width: 100%;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bck {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+}
